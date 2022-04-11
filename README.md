@@ -1,4 +1,4 @@
-팀원간 작업 분배  
+<!-- 팀원간 작업 분배  
 강승환, 이우림  
 raspberry pi-server간 소켓통신 구성  
 server에서 django를 이용한 USER interface 구성  
@@ -6,7 +6,7 @@ server에서 django를 이용한 USER interface 구성
 아두이노, raspberry pi를 이용하여 센서로부터 데이터 수집  
 각 센서별 필요한 소프트웨어 개발  
 박준섭  
-OpenCV를 이용하여 애완동물 구분 소프트웨어 개발
+OpenCV를 이용하여 애완동물 구분 소프트웨어 개발 -->
 
 # PARS
 Pet Automatic Relief Service
@@ -16,8 +16,20 @@ Pet Automatic Relief Service
 ## 프로젝트 개요
 - __기획의도__
     - 
-- __기능정의__
-    - 
+- __PARS 기능__
+    - 사용자 설정 시각에 따른 사료 제공
+    - 총 식사량 측정
+    - 카메라를 통한 실시간 관찰
+- __시스템 구성도__  
+    시스템 구성 사진
+    - 서버에서 정해진 시간에 맞춰 step motor를 이용하여 사료를 배출한다.  
+    - Raspberry Pi에서 loadcell module을 이용하여 총 식사량과 식사시간을 서버에 저장한다.
+    - 사용자는 반려동물의 식사량 및 식사시간을 모니터링 할 수 있다.
+    - Camera module을 이용하여 실시간으로 애완동물의 모습을 관찰할 수 있다.
+
+
+
+
 - __서버GIT__
     -https://github.com/kangshwan/PARS_SERVER
 - __최종보고서__
