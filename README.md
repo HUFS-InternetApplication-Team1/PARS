@@ -31,7 +31,8 @@ Pet Automatic Relief Service
     - 총 식사량 측정
     - 카메라를 통한 실시간 관찰
 - __시스템 구성도__  
-    사진
+    ![시스템구성도](./IMG/SystemArchitecture.png)  
+    ![데이터흐름](./IMG/DataFlow.png)
     - 서버에서 정해진 시간에 맞춰 step motor를 이용하여 사료를 배출한다.  
     - Raspberry Pi에서 loadcell module을 이용하여 총 식사량과 식사시간을 서버에 저장한다.
     - 사용자는 반려동물의 식사량 및 식사시간을 모니터링 할 수 있다.
